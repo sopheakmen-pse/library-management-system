@@ -1,5 +1,7 @@
 # library-management-system
 
+### 1. Run postgres database in docker container
+
 1. Pull the PostgreSQL docker image locally
 
 ```bash
@@ -27,3 +29,5 @@ docker run -d \
 
 - Replace "your_username", "your_password", and "your_database" with your desired values.
 - The -v flag is used to mount the volume, ensuring that data persists even if the container is removed.
+
+### 2. Connect database in PgAdmin
