@@ -31,3 +31,15 @@ docker run -d \
 - The -v flag is used to mount the volume, ensuring that data persists even if the container is removed.
 
 ### 2. Connect database in PgAdmin
+
+Step 1: Register a server
+![pgadmin-1](images/pgadmin-1.png)
+
+Step 2: Fill server name
+![pgadmin-2](images/pgadmin-2.png)
+
+Step 3: Fill server connection
+![pgadmin-3](images/pgadmin-3.png)
+
+Step 4: You are connected
+![pgadmin-4](images/pgadmin-4.png)
